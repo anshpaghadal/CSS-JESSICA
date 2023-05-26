@@ -1,0 +1,31 @@
+/* Type selector */
+body {
+    color: #333;
+}
+
+/*Class selector */
+.wrapper {
+    background-color: #F3DFBF;   ;
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*Descendant selector p */
+main p {
+    color: initial;
+}
+
+/*Pseudo-class and selector styling */
+ul li:nth-child(odd) {
+    font-weight: bold;
+}
+
+/* image styling */
+img {
+    height: auto;
+    width: 20%;
+}
