@@ -2,119 +2,132 @@
 html {
     font-family: 'Fira Sans', sans-serif;
     scroll-behavior: smooth;
-  }
-  
-  h1, h2, h3 {
+}
+
+h1,
+h2,
+h3 {
     font-weight: 600;
-  }
-  
-  p {
+}
+
+p {
     font-weight: 300;
     line-height: 18px;
-  }
-  
-  /* Layout */
-  .wrapper {
+}
+
+/* Layout */
+.wrapper {
     width: 80%;
     margin: 0 auto;
-  }
-  
-  .flex {
+}
+
+.flex {
     display: flex;
     gap: 32px;
-  }
-  
-  #features > div {
+}
+
+#features>div {
     flex: 1;
-  }
-  
-  img {
+}
+
+img {
     max-height: 300px;
     width: auto;
-  }
-  
-  main section {
+}
+
+main section {
     padding: 60px 20px 0 20px;
-  }
-  
-  /* Table Styles */
-  table {
+}
+
+/* Table Styles */
+table {
     width: 100%;
     border-collapse: collapse;
-  }
-  
-  table th, table td {
+}
+
+table th,
+table td {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ccc;
-  }
-  
- 
-  /* Link Styles */
-  a {
+}
+
+
+/* Link Styles */
+a {
     text-decoration: none;
     color: #333;
     margin: 5px;
-    font-weight: 600;
-  }
-  
+    font-size: 17px;
+    font-weight: 900;
+}
 
-  a:hover{
-    color: yellow;
-    background-color: black;
-  }
 
-  
-  /* List Styles */
-  ul, ol {
+a:hover {
+    color: #5c6d11;
+    /* color: #5e5df0; */
+    transition: color .2s ease;
+}
+
+
+/* List Styles */
+ul,
+ol {
     margin: 0;
     padding-left: 20px;
-  }
-  
-  ul li {
-    list-style-type: disc;
-  }
-  
-  ol li {
-    list-style-type: decimal;
-  }
-  
-  /* Custom Colors */
+}
 
-  header {
+ul li {
+    list-style-type: disc;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+/* Custom Colors */
+
+header {
     background-color: #ff4081;
     color: #fff;
     padding: 20px;
-  }
-  
-  h1 {
+}
+
+
+.catlink {
+    color: #6a6a6a;
+
+}
+
+.catlink:hover {
+
+    color: #5e5df0;
+    transition: color .2s ease;
+
+}
+
+h1 {
     font-size: 36px;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-size: 24px;
-  }
-  
-  h3 {
+}
+
+h3 {
     font-size: 18px;
-  }
-  
-  .wrapper {
+}
+
+.wrapper {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  table th, table td {
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
-  }
-  
+}
 
-    /* Zebra striped pattern for playlist table */
 
-  
-  tbody tr:nth-child(even) {
-    background-color: #6a6a6a;
-  }
-  
-  
+/* Zebra striped pattern for playlist table */
+
+
+tbody  tr:nth-child(odd){
+    background-color: #bfbcbc;
+}
+
