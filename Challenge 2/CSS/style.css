@@ -1,0 +1,40 @@
+/* Type selector */
+body {
+    color: #333;
+}
+/* element selector,,, Styling the header */
+header {
+    width: 90%;
+    margin: 0 auto;
+   /* background-color: #000000;
+    */
+    background: radial-gradient(circle, rgb(3, 67, 70) 0%, rgba(0,0,0,1) 87%);
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+}
+header h1{
+    letter-spacing: 10px;
+    word-spacing: 2px;
+}
+/*Class selector */
+.wrapper {
+    background-image: linear-gradient(to right, #f67c7c, #7070ff);
+    margin: 0 auto;
+    width: 80vw;
+    border: 3px solid #000000;
+}
+/*Descendant selector p */
+main p {
+    color: initial;
+}
+/*Pseudo-class and selector styling */
+ul li:nth-child(odd) {
+    font-weight: bold;
+}
+/* image styling */
+img {
+    height: auto;
+    filter: grayscale(50%) brightness(122%) drop-shadow(10px 10px 20px black);
+    width: 20%;
+}
