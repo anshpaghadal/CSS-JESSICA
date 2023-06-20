@@ -1,0 +1,129 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+/* custom local fonts */
+ @font-face {
+     font-family: 'hussar';
+     src: url('./assets/QueensidesMedium-x30zV.ttf') format('truetype');
+     font-weight: 0;
+}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ body {
+     font-family: sans-serif;
+}
+/* Select by element name */
+ h1 {
+     color: rgb(0, 0, 0);
+}
+ header h1 {
+     text-align: center;
+     padding: 1em;
+     margin-bottom: -1em;
+}
+ article {
+     text-align: center;
+}
+ article h1 {
+     border-top: 2px red solid;
+     display: inline-block;
+     padding: 1.5em;
+}
+ section{
+     text-align: left;
+     padding: 2em;
+}
+/* Select by class */
+ .highlight {
+     border: 1px black solid;
+     border-radius: 1em;
+     padding: 1em;
+     margin: 1em;
+}
+/* Select by ID */
+ #mainheading {
+     font-weight: bold;
+}
+/* b.) Set the font-family of all headings to an externally hosted web font */
+ h1, h2, h3 {
+     font-family: 'Inter', sans-serif;
+}
+/* c.) Set the font-family of all paragraph and table text to a locally hosted web font */
+ p, table {
+     font-family: 'hussar', sans-serif;
+}
+/* d.) Set the text size of all paragraph and table text to the equivalent of 18px using a relative unit */
+ p, table {
+     font-size: 1.125rem;
+}
+/* f.) Set the div.wrapper to 80% of the viewport width using a flexible and relative unit. Centre the div in the middle of the page */
+ div.wrapper {
+     width: 80%;
+     margin: 0 auto;
+}
+/* g.) Add 2ems of padding to the top of the article and 3ems of padding to the left and right */
+ article {
+     padding-top: 2em;
+     padding-left: 3em;
+     padding-right: 3em;
+}
+/* h.) Choose a background color and apply to div.wrapper */
+ div.wrapper {
+     background: linear-gradient(315deg, rgba(130,130,130,1) 0%, rgba(242,242,242,1) 57%);
+}
+/* i.) Make the image responsive */
+ img {
+     max-width: 100%;
+     filter: blur(.5px);
+     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+     height: auto;
+     margin: 2em;
+}
+/* j.) Set the background of the footer to #333 and color to #FFF. Adding padding of 3em to the top, bottom, and left of the footer. Make the footer 'sticky' (always at the bottom of the viewport) */
+ footer {
+     background-color: #333;
+     color: #fff;
+     padding: 3em 0 3em 3em;
+     position: sticky;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     margin-top: 1em;
+}
+/* k.) Style the table according to best practices */
+ table {
+     border-collapse: collapse;
+     width: 100%;
+}
+ table thead{
+     background-color: #c9bfbf;
+}
+ table th, table td {
+     border: 1px solid #787878;
+     padding: 8px;
+     text-align: left;
+}
+ table th {
+     background-color: #f2f2f2;
+     color: #333;
+}
+ table tr:nth-child(even) {
+     background-color: #c9bfbf;
+}
+ table tr:hover {
+     background-color: #000000;
+     color: #f2f2f2;
+}
+ aside{
+     background-color: rgba(0, 255, 170, 0.492);
+     padding: 1em;
+     width: 70%;
+     margin: 0 auto;
+     border-radius: 1em;
+     transition: transform 250ms, opacity 400ms;
+}
+ aside:hover{
+     transform: scale(1.1);
+}
